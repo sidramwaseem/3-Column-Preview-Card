@@ -37,12 +37,14 @@ body {
   padding: 75px 4px;
   margin: 0 275px;
   text-align: left;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
 }
 
 /* BOXES/ COLUMN */
 .box {
+  position: relative;
+  margin: auto;
   padding: 60px 29px;
 }
 
@@ -56,7 +58,6 @@ body {
 }
 
 #box-2 {
-  /* padding: 26px 8px; */
   background: hsl(184, 100%, 22%);
 }
 #box-2 button {
@@ -103,6 +104,6 @@ body {
 
 .btn:hover {
   cursor: pointer;
-  background-color: rgb(205, 199, 190);
+  background-color: transparent;
   text-decoration: underline;
 }
