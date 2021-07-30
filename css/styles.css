@@ -100,10 +100,12 @@ body {
   border-radius: 33px;
   border: none;
   font-weight: 700;
+  border: 2px solid hsl(0, 0%, 95%);
 }
 
 .btn:hover {
   cursor: pointer;
   background-color: transparent;
-  text-decoration: underline;
+  color:hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
 }
