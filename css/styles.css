@@ -9,7 +9,7 @@
 }
 .attribution a {
   text-decoration: underline;
-  color: black;
+  color: rgb(47, 47, 152);
 }
 
 html {
@@ -106,6 +106,6 @@ body {
 .btn:hover {
   cursor: pointer;
   background-color: transparent;
-  color:hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
   border: 2px solid hsl(0, 0%, 95%);
 }
