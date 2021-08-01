@@ -57,11 +57,19 @@ body {
   color: hsl(31, 77%, 52%);
 }
 
+#box-1 button:hover {
+  color: white;
+}
+
 #box-2 {
   background: hsl(184, 100%, 22%);
 }
 #box-2 button {
   color: hsl(184, 100%, 22%);
+}
+
+#box-2 button:hover {
+  color: white;
 }
 
 #box-3 {
@@ -72,6 +80,10 @@ body {
 
 #box-3 button {
   color: hsl(179, 100%, 13%);
+}
+
+#box-3 button:hover {
+  color: white;
 }
 
 /* HEADING */
