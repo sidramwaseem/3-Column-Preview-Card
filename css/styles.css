@@ -32,18 +32,18 @@ body {
 /* Container */
 
 #container-box {
+  border: 2px solid greenyellow;
   display: flex;
   flex-direction: row;
-  padding: 75px 4px;
+  padding: 40px 4px;
   margin: 0 275px;
   text-align: left;
-  /* justify-content: center; */
-  /* align-items: center; */
+  justify-content: center;
+  align-items: center;
 }
 
 /* BOXES/ COLUMN */
 .box {
-  position: relative;
   margin: auto;
   padding: 60px 29px;
 }
